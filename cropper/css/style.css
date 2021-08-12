@@ -7,5 +7,12 @@
 html,
 body {
     margin: 0px;
-    background: red;
+}
+
+#imageToCroppeContainer {
+    width: 100%;
+}
+
+#imageToCroppeContainer img {
+    width: 100%;
 }
