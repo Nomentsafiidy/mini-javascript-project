@@ -6,11 +6,20 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="css/map.css" />
         <title>Document</title>
+        <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCqmpWxeLjTV_S-lgBAP6YLms0ychp4mFs&libraries=places&v=weekly"></script>
     </head>
     <body>
-        <div>
-            work !!!
+        <div class="container">
+            <div id="mapContainer"></div>
+            <div id="places_container">
+                <div>
+                    <input type="text" id="destination" />
+                </div>
+                <div>
+                    <input type="text" id="destination01" />
+                </div>
+            </div>
         </div>
-        <script src="app.js"></script>
+        <script src="js/app.js"></script>
     </body>
 </html>

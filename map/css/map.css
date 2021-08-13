@@ -1,0 +1,33 @@
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    background: green;
+}
+
+.container {
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+#mapContainer {
+    height: 100%;
+    width: 100%;
+    background: red;
+    z-index: 1;
+}
+
+#places_container {
+    position: absolute;
+    top: 72px;
+    left: 16px;
+    right: 16px;
+    background: white;
+    z-index: 3;
+}
+input {
+    width: 100%;
+    height: 50px;
+}
